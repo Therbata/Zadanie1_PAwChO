@@ -47,7 +47,7 @@ cities = {
 }
 ```
 
-Dane pogodowe są pobierane z API Open-Meteo.
+Dane pogodowe są pobierane z API Openweathermap.
 
 2. Dockerfile (max. 50%)
 
@@ -99,7 +99,7 @@ c. Uzyskanie informacji z logów:
 docker logs zadanie1-container
 ```
 
-Przykładowy output z logów:
+output z logów:
 
 ```
 === LOGI APLIKACJI ===
@@ -116,11 +116,4 @@ docker images zadanie1:v1
 docker history zadanie1:v1
 ```
 
-Podsumowanie
-
-Aplikacja została zrealizowana zgodnie z wymaganiami zadania:
-
-✅ Loguje informacje przy starcie  
-✅ Umożliwia wybór miasta i sprawdzenie pogody  
-✅ Używa warstwy healthcheck w Dockerfile  
-✅ Zawiera metadata zgodne z OCI
+Końcowy rozmiar obrazu wyniósł 110MB
